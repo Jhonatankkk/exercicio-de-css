@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    pad: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+section {
+    border-radius: 10px;
+    border: 2px solid rgb(228, 21, 62);
+    padding: 20px;
+}
+
+#perfil {
+    text-align: center; 
+    
+}
+#nome {
+    
+}
+input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid color green;
+    width: 100%;
+    box-sizing: border-box;
+
+}
