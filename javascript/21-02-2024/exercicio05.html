@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <title>Verificação de senha</title>
+    <script>
+      const senhaCorreta = "12345";
+      function verificarSenha() {
+        let senhaInserida = prompt("digite sua senha:");
+
+        while(senhaInserida !== senhaCorreta) {
+          senhaInserida = prompt("Senha incorreta. Tente novamente:");
+        }
+        alert("Senha correta! Acesso permitido,");
+      }
+
+      verificarSenha();
+    </script>
+  </body>
+</html>
