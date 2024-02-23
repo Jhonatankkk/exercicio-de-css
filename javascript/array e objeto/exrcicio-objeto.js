@@ -1,5 +1,5 @@
 let filme = {
-    nome: "Clube da luata",
+    nome: "Clube da luta",
     nota: 9,
     genero: "drama"
 
@@ -7,4 +7,4 @@ let filme = {
 
 console.log("filme:", filme.nome);
 console.log("nota:", filme.nota);
-console.log("genero:", filme.genero);
+console.log("genero:", filme.genero);    
